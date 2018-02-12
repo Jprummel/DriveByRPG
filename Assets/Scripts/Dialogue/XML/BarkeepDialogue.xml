@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Nodes>
+  <DialogueNodes>
+	  <DialogueNode>
+      <NodeID>1</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>Good day sir, how may I be of assistance?</Text>
+      <Options>
+        <DialogueOption>
+          <Option>Question</Option>
+          <OptionText>I would like to ask you some questions.</OptionText>
+          <DestinationNodeID>2</DestinationNodeID>
+        </DialogueOption>
+        <DialogueOption>
+          <Option>Dismiss</Option>
+          <OptionText>I don't need anything, thanks.</OptionText>
+          <DestinationNodeID>1000</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>2</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>Okay, shoot.</Text>
+      <Options>
+        <DialogueOption>
+          <Option>Question about murder.</Option>
+          <OptionText>Can you tell me anything about the murder across the street?</OptionText>
+          <DestinationNodeID>3</DestinationNodeID>
+        </DialogueOption>
+        <DialogueOption>
+          <Option>General question</Option>
+          <OptionText>Did you notice any suspicious activity across the street?</OptionText>
+          <DestinationNodeID>4</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>3</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>There was a murder? No I dont know anything about that.</Text>
+      <Options>
+        <DialogueOption>
+          <Option>Dismiss</Option>
+          <OptionText>Alright thank you for your time, good day sir!</OptionText>
+          <DestinationNodeID>999</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+    
+    <DialogueNode>
+      <NodeID>4</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>Now that you mention it, i saw a fella in a brown raincoat exiting the premises at an alarming pace.</Text>
+      <Options>
+        <DialogueOption>
+          <Option>Question about face</Option>
+          <OptionText>Did you get a look at his face?</OptionText>
+          <DestinationNodeID>5</DestinationNodeID>
+        </DialogueOption>
+      <DialogueOption>
+        <Option>Question about person</Option>
+          <OptionText>Did you notice anything else about him?</OptionText>
+          <DestinationNodeID>6</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+    
+    <DialogueNode>
+      <NodeID>5</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>I didn't get a look at his face because his hat was hiding his face.</Text>
+      <Options>
+        <DialogueOption>
+          <Option>Dismiss</Option>
+          <OptionText>Alright, thank you for your time. Good day sir!</OptionText>
+          <DestinationNodeID>999</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>6</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>Well he was walking with a slight limp. It looked like he had hurt his right foot.</Text>
+      <Options>
+        <DialogueOption>
+          <Option>Dismiss</Option>
+          <OptionText>Alright, thank you for your time. Good day sir!</OptionText>
+          <DestinationNodeID>999</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>999</NodeID>
+      <DialogueSource>The Barkeep</DialogueSource>
+      <Text>And a good day to you!</Text>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>1000</NodeID>
+    </DialogueNode>
+    </DialogueNodes>
+</Nodes>

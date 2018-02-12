@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Nodes>
+  <DialogueNodes>
+	  <DialogueNode>
+      <NodeID>1</NodeID>
+      <DialogueSource>Random Stranger</DialogueSource>
+      <Text>Nice weather today 'innit?</Text>
+      <Options>
+        <DialogueOption>
+          <OptionText>It sure is!</OptionText>
+          <DestinationNodeID>1000</DestinationNodeID>
+        </DialogueOption>
+      </Options>
+    </DialogueNode>
+
+    <DialogueNode>
+      <NodeID>1000</NodeID>
+    </DialogueNode>
+    </DialogueNodes>
+</Nodes>

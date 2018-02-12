@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b924fed6561c2c348986cfcf7edaae4c
+timeCreated: 1510834121
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 1952 RHEINMETALL
+  fontNames:
+  - 1952 RHEINMETALL
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
